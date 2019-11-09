@@ -1,0 +1,80 @@
+
+/*Import fonts from fonts.css file*/
+@import url(./fonts.css);
+
+/*CSS variables*/
+@import url(./parcials/_variables.css);
+
+/*CSS  Global*/
+@import url(./parcials/_globale.css);
+
+
+
+/*------------------- Navigation Menu -----------------------*/
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 10rem 0 4rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 0 1rem 0;
+}
+
+.header_area .main-menu .navbar .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*---------X--------- Navigation Menu ------------X----------*/
+
+/*-------------------- Banner Area ------ ----------------------*/
+.site-main .site-banner{
+    background: url("../img/banner/home-banner.png") no-repeat 0% 50%;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    display : inline-block ;
+    background: black;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+/*---------X--------- Banner Area ------ ----------X------------*/
+
