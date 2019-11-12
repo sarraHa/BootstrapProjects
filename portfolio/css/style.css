@@ -180,6 +180,53 @@
 }
 /*---------X---------- Brand Area ------ ----------X------------*/
 
+/*-------------------- Services Area ------ ----------------------*/
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
 
 
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+}
+
+.site-main .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem ;
+    transition: all .7s ease;
+}
+
+.site-main .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+/*---------X---------- Services Area ------ ----------X------------*/
+
+/*-------------------- Project Area ------ ----------X------------*/
+.site-main .project-area{
+    border: solid;
+    padding: 4rem 0;
+}
+
+.site-main .project-area .button-group button{
+    background: transparent;
+    border: none;
+    font: normal 700 16px/130px var(--roboto);
+    text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button +button{
+    padding-left: 3rem;
+}
+
+.site-main .project-area .grid .our-project> .title h4{
+    font: normal 400 20px/12px var(--roboto);
+}
+/*---------X---------- Project Area ------ ----------X------------*/
 
