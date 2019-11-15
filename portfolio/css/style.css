@@ -8,9 +8,6 @@
 /*CSS  Global*/
 @import url(./parcials/_globale.css);
 
-/*CSS  Responsive*/
-@import url(./responsive.css);
-
 
 
 /*------------------- Navigation Menu -----------------------*/
@@ -197,17 +194,22 @@
     font-size: 35px;
 }
 
-.site-main .services-area .services{
+.site-main .services-area .services-list .services{
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
     width: 16rem;
-    margin: 5rem .5rem ;
+    margin: 5rem 1rem ;
     transition: all .7s ease;
 }
+
 
 .site-main .services-area .services:hover{
     box-shadow: var(--box-shadow);
     cursor: pointer;
+}
+
+.site-main .project-area .grid .element-item .our-project .img img{
+    width: 100%;
 }
 /*---------X---------- Services Area ------ ----------X------------*/
 
